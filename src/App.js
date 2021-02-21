@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Moustache from './Moustache.js'
 import './App.css';
 
 class App extends Component {
@@ -25,9 +26,10 @@ class App extends Component {
   }
   render() {
     return (
-      <main className='app'>
+      <main className='App'>
         <h1 className='swanson-heading'>Swanson Says,</h1>
         <p className='swanson-saying'>"{this.state.quote}"</p>
+        <Moustache />
         <button onClick={this.handleClick} className='swanson-switch'>Say Something Else</button>
       </main>
     )
