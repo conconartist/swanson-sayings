@@ -21,9 +21,10 @@ class App extends Component {
   }
   render() {
     return (
-      <main className='App'>
-        <h1>Swanson Says, "{this.state.quote}"</h1>
-        <button>Say Something Else</button>
+      <main className='app'>
+        <h1 className='swanson-heading'>Swanson Says,</h1>
+        <p className='swanson-saying'>"{this.state.quote}"</p>
+        <button className='swanson-switch'>Say Something Else</button>
       </main>
     )
   }
