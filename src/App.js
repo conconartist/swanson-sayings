@@ -19,12 +19,16 @@ class App extends Component {
       this.setState({error: true})
     })
   }
+  handleClick = () => {
+    this.setState({quote: "", error: false});
+    this.componentDidMount();
+  }
   render() {
     return (
       <main className='app'>
         <h1 className='swanson-heading'>Swanson Says,</h1>
         <p className='swanson-saying'>"{this.state.quote}"</p>
-        <button className='swanson-switch'>Say Something Else</button>
+        <button onClick={this.handleClick} className='swanson-switch'>Say Something Else</button>
       </main>
     )
   }
