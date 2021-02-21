@@ -1,5 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Seymour+One&display=swap');
+
+body, html {
+  background-color: #00d0ee;
+  display: flex;
+}
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff400;
+  width: 100vw;
+}
+
+.swanson-heading {
+  color: #fff400;
+  font-size: 3em;
+  font-family: 'Archivo Black', sans-serif;
+  text-shadow: 0 2px 0 rgb(0, 0, 0);
+}
+
+.swanson-saying {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 3vh;
+  height: 20vh;
+  padding: 2%;
+  width: 50%;
+}
+
+.swanson-switch {
+  background-color: #2fbf03;
+  color: #ffffff;
+  border: solid 2px #fff400;
+  padding: 10px;
+  border-radius: 7px;
 }
 
 .App-logo {
@@ -13,20 +52,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
