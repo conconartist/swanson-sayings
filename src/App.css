@@ -4,6 +4,7 @@
 body, html {
   background-color: #00d0ee;
   display: flex;
+  font-size: 1em;
 }
 
 .App {
@@ -16,15 +17,15 @@ body, html {
 
 .speech-bubble {
   color: #000000;
-  height: 250px;
-  width: 45%;
+  height: 270px;
+  width: 40%;
   min-width: 200px;
   background: ivory;
   display: block;
   margin: 0 auto;
   border-radius: 20px;
   margin-top: 50px;
-  font-size: 3vh;
+  font-size: 3.5vh;
   text-align: center;
   padding: 2%;
 }
@@ -43,15 +44,23 @@ body, html {
 }
 .swanson-heading {
   color: #fff400;
-  font-size: 3em;
+  font-size: 5em;
   font-family: 'Archivo Black', sans-serif;
   text-shadow: 0 2px 0 rgb(0, 0, 0);
 }
 
+.swanson-saying {
+  display: flex;
+  align-items: center;
+}
 .swanson-switch {
   background-color: #2fbf03;
   color: #ffffff;
   border: solid 2px #fff400;
   padding: 10px;
   border-radius: 7px;
+}
+
+.icon-attribute {
+  font-size: 0.5em;
 }
