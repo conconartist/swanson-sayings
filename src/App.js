@@ -20,17 +20,19 @@ class App extends Component {
       this.setState({error: true})
     })
   }
-  handleClick = (event) => {
-    this.setState({quote: "", error: false});
-    this.componentDidMount();
+  handleClick = () => {
+      this.setState({quote: "", error: false});
+      this.componentDidMount();
   }
   render() {
     return (
       <main className='App'>
         <h1 className='swanson-heading'>Swanson Says,</h1>
-        <p className='swanson-saying'>"{this.state.quote}"</p>
-        <Moustache onClick={this.handleClick} className='swanson-switch'/>
-        {/* <button onClick={this.handleClick} className='swanson-switch'>Say Something Else</button> */}
+        <div className='speech-bubble'>
+          <p className='swanson-saying'>"{this.state.quote}"</p>
+        </div>
+        <div className='speech-arrow'></div>
+        <Moustache className='swanson-switch' handleClick={this.handleClick}/>
       </main>
     )
   }

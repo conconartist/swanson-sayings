@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Seymour+One&display=swap');
+@import './Moustache.css';
 
 body, html {
   background-color: #00d0ee;
@@ -13,24 +14,38 @@ body, html {
   width: 100vw;
 }
 
+.speech-bubble {
+  color: #000000;
+  height: 250px;
+  width: 45%;
+  min-width: 200px;
+  background: ivory;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  font-size: 3vh;
+  text-align: center;
+  padding: 2%;
+}
+
+.speech-arrow {
+  height: 40px;
+	width: 40px;
+	background: ivory;
+	margin: 0 auto;
+	transform: rotate(45deg);
+	border-radius: 0 0 12px 0;
+	margin-top: -22px;
+	position: relative;
+	left: calc(0.5vw + 80px);
+
+}
 .swanson-heading {
   color: #fff400;
   font-size: 3em;
   font-family: 'Archivo Black', sans-serif;
   text-shadow: 0 2px 0 rgb(0, 0, 0);
-}
-
-.swanson-saying {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 7px;
-  color: #000000;
-  background-color: #ffffff;
-  font-size: 3vh;
-  height: 20vh;
-  padding: 2%;
-  width: 50%;
 }
 
 .swanson-switch {
@@ -39,25 +54,4 @@ body, html {
   border: solid 2px #fff400;
   padding: 10px;
   border-radius: 7px;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
