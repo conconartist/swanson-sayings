@@ -1,16 +1,18 @@
 #Capa_1 {
     fill: #654321;
-    height: 20em;
+    height: 17em;
 }
 
-.bounce:hover {
-
+#Capa_1:hover {
+    fill: #FF007F;
+    height: 20em;
+    cursor: pointer;
 }
 
 .bounce:active {
     animation-name: bounce;
     animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
