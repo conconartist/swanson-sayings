@@ -33,6 +33,11 @@ class App extends Component {
         </div>
         <div className='speech-arrow'></div>
         <Moustache className='swanson-switch' handleClick={this.handleClick}/>
+        <footer>
+          <div className='icon-attribute'>
+            Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+          </div>
+        </footer>
       </main>
     )
   }
