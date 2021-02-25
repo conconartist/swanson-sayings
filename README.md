@@ -10,7 +10,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Overview 
 
 An app that randomizes quotes by Ron Swanson from the TV Show, "Parks and Recreation". 
-Click on Ron's moustache to watch it change colors and bounce before generating another saying.
+Click on Ron's mustache to watch it change colors and bounce before generating another saying.
 
 The quotes are generated from [this API](https://github.com/jamesseanwright/ron-swanson-quotes).
 
