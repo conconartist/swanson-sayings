@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Swanson Says
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started 
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
+Clone this repo and `cd` into the project directory, then enter `npm start` in your terminal to view the app in your browser.
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Overview 
 
-### `npm test`
+An app that randomizes quotes by Ron Swanson from the TV Show, "Parks and Recreation". 
+Click on Ron's moustache to watch it change colors and bounce before generating another saying.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The quotes are generated from [this API](https://github.com/jamesseanwright/ron-swanson-quotes).
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React
+* HTML
+* JavaScript
+* CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+[Swanson Says](https://swanson-says.herokuapp.com/)
 
-### `npm run eject`
+## In Action
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![](https://media.giphy.com/media/4h50BEiQG7sAspKxoW/giphy.gif)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screen Shot 2021-02-21 at 8 08 38 PM (2)](https://user-images.githubusercontent.com/67291333/109105650-9ab6de80-76eb-11eb-8406-11f0c5f339de.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img width="1227" alt="Screen Shot 2021-02-21 at 8 08 38 PM" src="https://user-images.githubusercontent.com/67291333/109105735-be7a2480-76eb-11eb-8c16-e7bbc21c14de.png">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Future Iterations
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+More animations? Maybe gifs? Who knows. This was just for fun.
